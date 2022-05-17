@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @rohitmattu
-- 👀 I’m interested in studing the impact of ICTs from the UNDP's SDGs perspective.
-- 💞️ I’m looking to collaborate on social experiments, quantitative analysis using AI and ML.
-- 📫 Contact: rohitm21@iimcal.ac.in
+-  I’m interested in studing the impact of ICTs from the UNDP's SDGs perspective.
+-  I’m looking to collaborate on social experiments, quantitative analysis using AI and ML.
+-  Contact: rohitm21@iimcal.ac.in
