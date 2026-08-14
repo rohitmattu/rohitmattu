@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    text { font: 700 52px 'Inter Tight', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .r { fill: #000000; }
+    .d { fill: #0600fe; }
+    @media (prefers-color-scheme: dark) {
+      .r { fill: #ffffff; }
+      .d { fill: #8a93ff; }
+    }
+  </style>
+  <text x="6" y="50" class="r">R</text>
+  <text x="42" y="50" class="d">.</text>
+</svg>
