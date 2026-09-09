@@ -48,13 +48,16 @@
       const updateDrift = () => {
         ticking = false;
         const vw = document.documentElement.clientWidth || window.innerWidth || 1280;
-        if (reduceMotion.matches || vw <= 720) {
+        if (reduceMotion.matches) {
           hero.style.setProperty('--hello-shift', '0px');
           hero.style.setProperty('--name-shift', '0px');
           return;
         }
+        const scrollOffset = Math.max(0, window.scrollY);
         const baseSpeed = Math.max(0.85, Math.min(1.15, vw / 1400));
-        const drift = window.scrollY * baseSpeed * 0.6;
+        const drift = vw <= 720
+          ? Math.min(scrollOffset * 0.14, 28)
+          : scrollOffset * baseSpeed * 0.6;
         hero.style.setProperty('--hello-shift', `${drift}px`);
         hero.style.setProperty('--name-shift', `${-drift}px`);
       };
